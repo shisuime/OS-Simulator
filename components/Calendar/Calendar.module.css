@@ -1,0 +1,52 @@
+
+.Wholepage{
+   background-image: url(../../public/Assets/SettingsMainPage.png);
+    
+}
+.calendar {
+    font-family: Arial, sans-serif;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 20px;
+    width: 300px;
+    margin: 0 auto;
+    background-image: url(../../public//Assets//SettingsMainPage.png);
+  }
+  
+  .calendar h2 {
+    margin: 0 0 10px;
+    text-align: center;
+  }
+  
+  .days {
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    gap: 5px;
+  }
+  
+  .day {
+    text-align: center;
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    color: white;
+  }
+  
+  .day:hover {
+    background-color: #f0f0f0;
+  }
+ 
+  .header{
+    width: auto;
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+  }
+
+  .Move{
+    color: white;
+  }
+
+
+ 
+ 

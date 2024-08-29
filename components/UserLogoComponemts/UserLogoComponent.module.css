@@ -1,0 +1,39 @@
+.UserLogoContainer {
+  border-radius: 8px;
+  border-color: white;
+  border-style: solid;
+  border-width: 1px;
+  height: 350px;
+  width: 340px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  margin-bottom: 20px;
+  background-color: #0000004a;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.Setuserlogo {
+  color: white;
+}
+
+.Userlogo {
+  background-color: black;
+  border-radius: 76px;
+  border-color: white;
+  border-width: 1px;
+  border-style: solid;
+  height: 120px;
+  width: 120px;
+}
+
+.Username {
+  color: white;
+  margin-bottom: 44px;
+}
+.buttonContainer {
+  display: flex;
+  gap: 15px;
+}

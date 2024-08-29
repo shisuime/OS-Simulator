@@ -1,0 +1,86 @@
+.WholeBackgroundProfile{
+    height: 100vh; 
+    width: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.BackgroundProfileNav{
+    width: 100%;
+    height: 60px;
+    background: transparent;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    
+    background-color: black;
+    border: 1px solid white;
+}
+.BackgroundProfileeNameContainer{
+    height: 60px;
+    width: 300px;
+    background-color: rgba(146, 146, 146, 0.738);
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+.BackgroundProfileName{
+    color: white;
+}
+.BackgroundProfileMiddleware{
+    background-image: url(../../public/Assets/SettingsMainPage.png);
+    width: 100%;
+    height: 635px;
+}
+.BackgroundProfileMiddlewareName{
+    color: white;
+    width: 100%;
+    height: 78px;
+    padding-top: 20px;
+    padding-left: 81px;
+    font-size: 50px;
+    display: flex;
+    justify-content: flex-start;
+}
+.AllBackgroundProfileMiddleware{
+    display: flex;
+    flex-direction: column;
+    width: 1166px;
+    padding-left: 290px;
+}
+.Picture{
+    flex: 1;
+    margin: 15px;
+    padding: 40px;
+    width: 1000px;
+    border: 2px solid #ccc;
+    display: flex;
+     justify-content: space-evenly;
+     color: white;
+     font-size: 40px;
+     background-color: rgba(146, 146, 146, 0.738);
+}
+.Image{
+    flex: 1;
+    margin: 15px;
+    padding: 40px;
+    width: 1000px;
+    border: 2px solid #ccc;
+    display: flex;
+     justify-content: space-evenly;
+     color: white;
+     font-size: 40px;
+     background-color: rgba(146, 146, 146, 0.738);
+}
+
+.Back{
+    border-radius: 1px;
+    border-color: white;
+    border-style: solid;
+    color: white;
+    padding-left: 26px;
+    width: 86px;
+    margin-top: 5px;
+}

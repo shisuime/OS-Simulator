@@ -1,0 +1,21 @@
+{
+  "editor.formatOnSave": true,
+  "gitflow4code.features": [
+    {
+      "name": "feature/Gunarnab-SignUpFlow",
+      "base": "develop"
+    },
+    {
+      "name": "feature/Gunarnab-Menu",
+      "base": "develop"
+    },
+    {
+      "name": "feature/Sumit-Folder",
+      "base": "feature/Sumit-Homepage"
+    },
+    {
+      "name": "feature/sumit-settings",
+      "base": "develop"
+    }
+  ]
+}

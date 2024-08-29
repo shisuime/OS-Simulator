@@ -1,0 +1,98 @@
+.WholeAccountProfile{
+    height: 100vh; 
+    width: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.AccountProfileNav{
+    width: 100%;
+    height: 60px;
+    background: transparent;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    
+    background-color: black;
+    border: 1px solid white;
+}
+.AccountProfileNameContainer{
+    height: 60px;
+    width: 300px;
+    background-color: rgba(146, 146, 146, 0.738);
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+.AccountProfileName{
+    color: white;
+}
+.AccountProfileMiddleware{
+    background-image: url(../../public/Assets/SettingsMainPage.png);
+    width: 100%;
+    height: 635px;
+}
+.AccountProfileMiddlewareName{
+    color: white;
+    width: 100%;
+    height: 78px;
+    padding-top: 20px;
+    padding-left: 81px;
+    font-size: 50px;
+    display: flex;
+    justify-content: flex-start;
+}
+.AllAccountProfileMiddleware{
+    display: flex;
+    flex-direction: column;
+    width: 1166px;
+    padding-left: 290px;
+}
+.ProfilePicture{
+    flex: 1;
+    margin: 15px;
+    padding: 40px;
+    width: 1000px;
+    border: 2px solid #ccc;
+    display: flex;
+     justify-content: space-evenly;
+     color: white;
+     font-size: 40px;
+     background-color: rgba(146, 146, 146, 0.738);
+}
+.Username{
+    flex: 1;
+    margin: 15px;
+    padding: 40px;
+    width: 1000px;
+    border: 2px solid #ccc;
+    display: flex;
+     justify-content: space-evenly;
+     color: white;
+     font-size: 40px;
+     background-color: rgba(146, 146, 146, 0.738);
+}
+.NewAccount{
+    flex: 1;
+    margin: 15px;
+    padding: 40px;
+    width: 1000px;
+    border: 2px solid #ccc;
+    display: flex;
+     justify-content: space-evenly;
+     color: white;
+     font-size: 40px;
+     background-color: rgba(146, 146, 146, 0.738);
+}
+
+.Back{
+    border-radius: 1px;
+    border-color: white;
+    border-style: solid;
+    color: white;
+    padding-left: 26px;
+    width: 86px;
+    margin-top: 5px;
+}

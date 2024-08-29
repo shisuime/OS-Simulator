@@ -1,0 +1,44 @@
+.signupcontainer {
+  border-style: solid;
+  width: 325px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  border-radius: 10px;
+  border-color: white;
+  /* gap: 5px; */
+  background-color: #0000004a;
+  height: 330px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border-width: 1px;
+}
+
+.firstnamecontainer {
+  color: white;
+  margin-right: 180px;
+}
+
+.lastnamecontainer {
+  color: white;
+  margin-right: 144px;
+}
+
+.passwordcontainer {
+  color: white;
+  margin-right: 226px;
+}
+
+.confirmpasswordcontainer {
+  color: white;
+  margin-right: 171px;
+}
+.buttonsContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: 30px;
+  height: 50px;
+  align-items: center;
+}

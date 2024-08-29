@@ -1,0 +1,57 @@
+.LoginPage {
+  background-image: url("../../public/Assets/bgimage.png");
+  height: 100vh;
+  width: 100%;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding-bottom: 200px;
+  gap: 350px;
+}
+
+.textcontainer {
+  /* display: flex;
+    flex-direction: column;
+    height: 100px;
+    justify-content: space-between;
+    margin-bottom: 120px; */
+  display: flex;
+  flex-direction: column-reverse;
+  height: 100px;
+  margin-top: 603px;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.title {
+  color: #04c4f0;
+  font-size: 5em;
+  margin-bottom: 27px;
+  margin-right: 330px;
+}
+
+.osdescription {
+  color: white;
+  font-size: 1.3em;
+}
+.logosandAuthboxContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 15px;
+  /* margin-right: 26px; */
+  margin-top: 60px;
+}
+
+.logo {
+  height: 11vh;
+  width: 11vh;
+}
+.doogos {
+  color: white;
+}
+
+.signupwithemail {
+  text-decoration: underline;
+}
