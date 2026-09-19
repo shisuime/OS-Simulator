@@ -262,12 +262,12 @@ export async function deleteFolder(path, folderName) {
 
 
 async function fetchWithTimeout(url, options, timeout = 30000) {
-    return Promise.race([
-        fetch(url, options),
-        new Promise((_, reject) =>
-            setTimeout(() => reject(new Error("Request timed out")), timeout)
-        ),
-    ]);
+    // return Promise.race([
+    //     fetch(url, options),
+    //     new Promise((_, reject) =>
+    //         setTimeout(() => reject(new Error("Request timed out")), timeout)
+    //     ),
+    // ]);
 }
 
 function Log(String) {

@@ -26,21 +26,22 @@ const SignIn = () => {
   };
 
   const handleClick = async () => {
-    try {
-      const response = await SignInFunction(usernameValue, passwordValue);
-      if (response.statusCode === 200) {
-        // console.log(response.token, "token");
-        SetCookie("JWTtoken", response.token);
-        console.log(cookie.name, "cookie");
-        router.push("/home");
-      } else if (response.statusCode === 403) {
-        alert("invalid credentials");
-      } else {
-        alert("user not found");
-      }
-    } catch (error) {
-      console.error("Sign-in failed:", error);
-    }
+    router.push("/home");
+    // try {
+    //   const response = await SignInFunction(usernameValue, passwordValue);
+    //   if (response.statusCode === 200) {
+    //     // console.log(response.token, "token");
+    //     SetCookie("JWTtoken", response.token);
+    //     console.log(cookie.name, "cookie");
+    //     router.push("/home");
+    //   } else if (response.statusCode === 403) {
+    //     alert("invalid credentials");
+    //   } else {
+    //     alert("user not found");
+    //   }
+    // } catch (error) {
+    //   console.error("Sign-in failed:", error);
+    // }
   };
 
   return (

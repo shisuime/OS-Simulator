@@ -38,6 +38,7 @@ import {
 } from "../../../services/AuthService/AuthService";
 import Input from "../Input/Input";
 import Button from "../Button/Button";
+import { newkindofobj } from "@/dummy/dummy";
 
 const Folder = () => {
   const categoriesFolderArray = [
@@ -75,7 +76,8 @@ const Folder = () => {
 
   useEffect(() => {
     const initialGetData = async () => {
-      const response = await getDirectory(selectedCategory.name);
+      // const response = await getDirectory(selectedCategory.name);
+      const response = newkindofobj[selectedCategory.name]
       handleGetChildrenforCategory(selectedCategory.name, response["data"]);
       SetresponseDataobj(response["data"]);
     };
@@ -321,7 +323,7 @@ const Folder = () => {
               </div>
               <div className={Styles.mainContents}>
                 {selectedCategoryObjects &&
-                selectedCategoryObjects.length > 0 ? (
+                  selectedCategoryObjects.length > 0 ? (
                   selectedCategoryObjects.map(
                     ({ _id, size, type, DOM }, index) => (
                       <div
@@ -342,8 +344,8 @@ const Folder = () => {
                               type === "text"
                                 ? Notepad
                                 : type === "image"
-                                ? ImageviewerIcon
-                                : File
+                                  ? ImageviewerIcon
+                                  : File
                             }
                             height={30}
                             width={30}
